@@ -1,38 +1,40 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Dino } from "@/types.ts";
+import { Project } from "@/types.ts";
 import Link from "next/link";
 import React from "react";
 
 export default function Home() {
-  const [dinosaurs, setDinosaurs] = useState<Dino[]>([]);
+  const [projects, setProjects] = useState<Project[]>([]);
 
   useEffect(() => {
     (async () => {
-      const response = await fetch(`/api/dinosaurs`);
-      const allDinosaurs = (await response.json()) as Dino[];
-      setDinosaurs(allDinosaurs);
+      const response = await fetch(`/api/projects`);
+      const allProjects = (await response.json()) as Project[];
+      setProjects(allProjects);
     })();
   }, []);
 
   return (
     <main>
-      <img className="m-4" src="https://placehold.co/500x300" />
-      <h1>Welcome to the Dinosaur app</h1>
-      <h3>Click on a dinosaur below to learn more.</h3>
-      <div className="h-6" />
-      <ul>
-        {dinosaurs.map((dinosaur: Dino) => {
+      <h1>Hi! I'm Neo Dev 👋</h1>
+      <h3 className="pb-14">Click on a dinosaur below to learn more.</h3>
+      <div className="home-grid">
+        {projects.map((project: Project) => {
           return (
-            <li key={dinosaur.name}>
-              <Link href={`/${dinosaur.name.toLowerCase()}`}>
-                {dinosaur.name}
-              </Link>
-            </li>
+            <div className="home-grid-item" key={project.name}>
+              <img className="m-4" src="https://placehold.co/300x300" />
+              <div className="m-2">
+                <Link href={`/${project.name.toLowerCase()}`}>
+                  {project.name}
+                </Link>
+              </div>
+            </div>
           );
         })}
-      </ul>
+      </div>
+      <div className="h-6" />
     </main>
   );
 }

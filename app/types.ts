@@ -1,1 +1,1 @@
-export type Dino = { name: string; description: string };
+export type Project = { name: string; description: string; imageUrl: string; link: string; };
