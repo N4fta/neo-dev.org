@@ -12,7 +12,7 @@
 <p align="center">
   <a href="">
     <img src="https://badge.fury.io/js/electron-markdownify.svg"
-         alt="Gitter">
+         alt="">
   </a>
   <a href=""><img src=""></a>
   <a href="">
