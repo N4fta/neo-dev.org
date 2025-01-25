@@ -1,0 +1,11 @@
+{
+  "unstable": ["unsafe-proto"],
+  "imports": {
+    "@": "./"
+  },
+  "tasks": {
+    "start": "deno run --allow-net --watch=app/ main.ts",
+    "test": "deno test --allow-net",
+    "lint": "deno lint"
+  }
+}
