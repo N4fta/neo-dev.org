@@ -2,7 +2,7 @@
   <br>
   <a href="https://placehold.co/"><img src="https://placehold.co/200?text=Project\nLogo&font=roboto" alt="" width="200"></a>
   <br>
-  Project Name
+  Neo Dev's Personal Website
   <br>
 </h1>
 
