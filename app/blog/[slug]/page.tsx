@@ -1,28 +1,20 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { Dino } from "@/types.ts";
 import Link from "next/link";
+import { useEffect } from "react";
 
-type RouteParams = { params: Promise<{ dinosaur: string }> };
+type RouteParams = { params: Promise<{ slug: string }> };
 
-export default function Dinosaur({ params }: RouteParams) {
-  const selectedDinosaur = params.then((params) => params.dinosaur);
-  const [dinosaur, setDino] = useState<Dino>({ name: "", description: "" });
+export default function BlogPost({ params }: Readonly<RouteParams>) {
+  const blogPostSlug = params.then((params) => params.slug);
 
-  useEffect(() => {
-    (async () => {
-      const resp = await fetch(`/api/dinosaurs/${await selectedDinosaur}`);
-      const dino = (await resp.json()) as Dino;
-      setDino(dino);
-    })();
-  }, []);
+  useEffect(() => {}, []);
 
   return (
     <main>
-      <h1>{dinosaur.name}</h1>
-      <p>{dinosaur.description}</p>
-      <Link href="/">🠠 Back to all dinosaurs</Link>
+      <h1>Page in Development</h1>
+      <p className="pb-6">...</p>
+      <Link href="/">🠠 Back to homepage</Link>
     </main>
   );
 }
