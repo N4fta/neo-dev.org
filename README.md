@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h4 align="center">Hosted on Vercel with a DNS in Cloudfare at <a href="neo-dev.org" target="_blank">neo-dev.org</a></h4>
+<h4 align="center">Hosted on Vercel with a DNS in Cloudfare at <a href="https://neo-dev.org" target="_blank">neo-dev.org</a></h4>
 
 <!-- Badges -->
 <p align="center">
