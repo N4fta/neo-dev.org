@@ -6,8 +6,8 @@
   --background: #213555;
   --background-secondary: #3e5879;
   --foreground: #d8c4b6;
-  --color-primary: #dfa32c;
-  --color-secondary: #c79a41;
+  --color-primary: #cf8a00;
+  --color-secondary: #c7a23b;
   --color-terciary: #3e5879;
   --color-quaternary: #213555;
 }
@@ -63,7 +63,7 @@ li {
 .home-grid .home-grid-item {
   /* Make them a card deck?? */
   aspect-ratio: 0.66;
-  @apply flex flex-col w-full border-8 border-primary;
+  @apply flex flex-col w-full border-8 border-secondary;
   @apply lg:w-[330px] lg:h-[500px];
 }
 

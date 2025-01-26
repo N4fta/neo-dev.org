@@ -18,8 +18,11 @@ export default function Home() {
 
   return (
     <main>
-      <h1>Hi! I'm Neo Dev 👋</h1>
-      <h3 className="pb-14">Click on a dinosaur below to learn more.</h3>
+      <h1 className="pb-4">Hi! I'm Neo Dev 👋</h1>
+      <h3 className="pb-12">
+        Click on a <span className="text-primary">project</span> below to learn
+        more.
+      </h3>
       <div className="home-grid">
         {projects.map((project: Project) => {
           return (
