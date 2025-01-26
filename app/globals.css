@@ -27,11 +27,12 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
-  @apply h-full pt-4 flex justify-center;
+  @apply h-full flex flex-col min-h-screen;
 }
 
 main {
-  @apply flex flex-col justify-center items-center h-max min-h-full w-full max-w-7xl;
+  @apply mx-auto flex flex-grow flex-col pt-10 items-center w-full max-w-7xl;
+  @apply lg:w-fit;
 }
 
 h1 {
@@ -55,13 +56,17 @@ li {
 }
 
 .home-grid {
-  @apply w-[66%] grid;
-  @apply lg:w-full lg:grid-cols-3 lg:gap-4 xl:gap-8 2xl:gap-10;
+  @apply mx-auto grid w-full p-10 sm:p-20 max-lg:space-y-24;
+  @apply lg:p-2 lg:grid-cols-3 lg:gap-3 xl:gap-8 2xl:gap-10;
 }
 
 .home-grid .home-grid-item {
   /* Make them a card deck?? */
-  height: 500px;
-  @apply flex flex-col w-full m-1 border border-8 border-primary;
+  aspect-ratio: 0.66;
+  @apply flex flex-col w-full border-8 border-primary;
   @apply lg:w-[330px] lg:h-[500px];
+}
+
+.default-transition {
+  @apply transition-all duration-200 delay-75;
 }

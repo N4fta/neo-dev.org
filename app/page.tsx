@@ -24,9 +24,13 @@ export default function Home() {
         {projects.map((project: Project) => {
           return (
             <div className="home-grid-item" key={project.name}>
-              <img className="m-4" src="https://placehold.co/300x300" />
+              <img
+                className="m-4"
+                src={project.imageUrl}
+                alt="Project Screenshot"
+              />
               <div className="m-2">
-                <Link href={`/${project.name.toLowerCase()}`}>
+                <Link href={`/${project.name.toLowerCase().replace(" ", "-")}`}>
                   {project.name}
                 </Link>
               </div>

@@ -2,19 +2,19 @@
   {
     "name": "Project 1",
     "description": "string",
-    "imageUrl": "string",
+    "imageUrl": "https://placehold.co/300x300",
     "link": "string"
   },
   {
     "name": "Project 2",
     "description": "string",
-    "imageUrl": "string",
+    "imageUrl": "https://placehold.co/300x300",
     "link": "string"
   },
   {
     "name": "Project 3",
     "description": "string",
-    "imageUrl": "string",
+    "imageUrl": "https://placehold.co/300x300",
     "link": "string"
   }
 ]

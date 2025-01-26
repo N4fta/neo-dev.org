@@ -4,7 +4,7 @@ import data from "../data.json" with { type: "json" };
 type RouteParams = { params: Promise<{ project: string }> };
 
 export const GET = async (request: NextRequest, { params }: RouteParams) => {
-  const { project } = await params;
+  const project = (await params).project.replace("-"," ");
 
   if (!project) {
     return Response.json("No project name provided.");
