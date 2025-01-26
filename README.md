@@ -117,7 +117,7 @@ This software uses the following open source packages:
 
 ## You may also like...
 
-- [Pomolectron](https://github.com/amitmerchant1990/pomolectron) - A pomodoro app
+- [Lofi-Pomodoro](https://github.com/N4fta/Lofi-Pomodoro) - A lofi music pomodoro app
 
 ---
 
