@@ -6,9 +6,11 @@ import { useEffect } from "react";
 type RouteParams = { params: Promise<{ slug: string }> };
 
 export default function BlogPost({ params }: Readonly<RouteParams>) {
-  // const _blogPostSlug = params.then((params) => params.slug);
+  const blogPostSlug = params.then((params) => params.slug);
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    console.log(blogPostSlug);
+  }, []);
 
   return (
     <main>
