@@ -18,7 +18,7 @@ export default function Home() {
 
   return (
     <main>
-      <h1 className="pb-4">Hi! I'm Neo Dev 👋</h1>
+      <h1 className="pb-4">Hi! I&apos;m Neo Dev 👋</h1>
       <h3 className="pb-12">
         Click on a <span className="text-primary">project</span> below to learn
         more.
