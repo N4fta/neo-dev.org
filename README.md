@@ -63,16 +63,16 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/amitmerchant1990/electron-markdownify
+$ git clone https://github.com/N4fta/neo-dev.org
 
 # Go into the repository
-$ cd electron-markdownify
+$ cd neo-dev.org
 
 # Install dependencies
-$ npm install
+$ deno install
 
 # Run the app
-$ npm start
+$ deno task start
 ```
 
 > **Note**
