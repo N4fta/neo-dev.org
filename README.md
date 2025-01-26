@@ -11,10 +11,8 @@
 <!-- Badges -->
 <p align="center">
   <a href="">
-    <img src="https://badge.fury.io/js/electron-markdownify.svg"
-         alt="">
+	  <img src="">
   </a>
-  <a href=""><img src=""></a>
   <a href="">
       <img src="">
   </a>
@@ -82,28 +80,14 @@ $ deno task start
 
 You can [download](https://github.com/amitmerchant1990/electron-markdownify/releases/tag/v1.2.0) the latest installable version of Markdownify for Windows, macOS and Linux.
 
-## Related Repositories
-
-- [Front-End](https://git.fhict.nl/I540432/vibecheck_frontend)
-- [Back-End](https://git.fhict.nl/I540432/vibecheck_backend)
-- [Documents Repo](https://git.fhict.nl/I540432/vibecheck_docu)
-- [Jira](https://nunodias.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog)
-
-## Emailware
-
-Markdownify is an [emailware](https://en.wiktionary.org/wiki/emailware). Meaning, if you liked using this app or it has helped you in any way, I'd like you send me an email at <bullredeyes@gmail.com> about anything you'd want to say about this software. I'd really appreciate it!
-
 ## Credits
 
 This software uses the following open source packages:
 
-- [Electron](http://electron.atom.io/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
-- [showdown](http://showdownjs.github.io/showdown/)
-- [CodeMirror](http://codemirror.net/)
-- Emojis are taken from [here](https://github.com/arvida/emoji-cheat-sheet.com)
-- [highlight.js](https://highlightjs.org/)
+- [Deno](http://electron.atom.io/)
+- [React](https://nodejs.org/)
+- [Next.js](https://nodejs.org/)
+- [Vercel](https://nodejs.org/)
 
 ## Support
 
