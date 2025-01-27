@@ -44,7 +44,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-container`}
       >
         {children}
         <footer className="footer-bar w-screen flex flex-col items-center ">
@@ -68,6 +68,18 @@ export default function RootLayout({
           </div>
           <div className="text-xs pb-0.5">© 2025 Nuno Dias</div>
         </footer>
+        <ul className="bg-circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
       </body>
     </html>
   );
