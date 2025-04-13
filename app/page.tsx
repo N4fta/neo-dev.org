@@ -1,9 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Project } from "@/types.ts";
+import { Project } from "@/app/types";
 import Link from "next/link";
-import React from "react";
 
 export default function Home() {
   const [projects, setProjects] = useState<Project[]>([]);
