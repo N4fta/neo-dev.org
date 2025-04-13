@@ -1,14 +1,17 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-:root {
+@theme {
   --background: #213555;
   --background-secondary: #3e5879;
   --foreground: #d8c4b6;
+
+  --color-midnight: #121063;
+  --color-tahiti: #3ab7bf;
+  --color-bermuda: #78dcca;
+
   --color-primary: #cf8a00;
   --color-secondary: #c7a23b;
-  --color-terciary: #3e5879;
+  --color-tertiary: #3e5879;
   --color-quaternary: #213555;
 }
 
@@ -134,7 +137,6 @@ body {
     animation-delay: 0s;
     animation-duration: 11s;
   }
-
 
   @keyframes animate {
     0% {
