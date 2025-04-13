@@ -7,4 +7,4 @@
 - test with lighthouse
 - choose a font
 - add pictures
--
+- create development branch before further changes 
