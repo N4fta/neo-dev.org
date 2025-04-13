@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import { Project } from "@/app/types";
-import Link from "next/link";
 
 export default function Home() {
   const [projects, setProjects] = useState<Project[]>([]);
@@ -16,30 +15,13 @@ export default function Home() {
   }, []);
 
   return (
-    <main>
+    <main className="p-8">
       <h1 className="pb-4">Hi! I&apos;m Neo Dev 👋</h1>
       <h3 className="pb-12">
-        Click on a <span className="text-primary">project</span> below to learn
-        more.
+        This website is a work in progress, for now you can think of it as place
+        for all my links.
       </h3>
-      <div className="home-grid">
-        {projects.map((project: Project) => {
-          return (
-            <div className="home-grid-item" key={project.name}>
-              <img
-                className="m-4"
-                src={project.imageUrl}
-                alt="Project Screenshot"
-              />
-              <div className="m-2">
-                <Link href={`/${project.name.toLowerCase().replace(" ", "-")}`}>
-                  {project.name}
-                </Link>
-              </div>
-            </div>
-          );
-        })}
-      </div>
+      <div className="home-grid"></div>
       <div className="h-6" />
     </main>
   );

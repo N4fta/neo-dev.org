@@ -1,17 +1,6 @@
 import type { Metadata } from "next";
-import { FooterLink } from "@/types.ts";
-import { Geist, Geist_Mono } from "next/font/google";
+import { FooterLink } from "@/app/types";
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 const links: FooterLink[] = [
   {
@@ -43,16 +32,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-container`}
-      >
+      <body className="antialiased bg-container">
         {children}
         <footer className="footer-bar w-screen flex flex-col items-center ">
           <div className="flex gap-2 pb-0.5">
             {links.map((link: FooterLink) => {
               return (
                 <a
-                  className="p-2 rounded-full hover:bg-opacity-20 hover:bg-white hover:scale-110 default-transition"
+                  className="p-2 rounded-full hover:bg-white/20 hover:scale-110 default-transition"
                   key={link.link}
                   href={link.link}
                   target="_blank"
@@ -68,18 +55,6 @@ export default function RootLayout({
           </div>
           <div className="text-xs pb-0.5">© 2025 Nuno Dias</div>
         </footer>
-        <ul className="bg-circles">
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
       </body>
     </html>
   );

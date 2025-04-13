@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Project } from "@/types.ts";
+import { Project } from "@/app/types";
 import Link from "next/link";
 
 type RouteParams = { params: Promise<{ project: string }> };
