@@ -13,6 +13,11 @@
   --color-artic-800: #023e8a;
   --color-artic-900: #03045e;
 
+  --color-mint: #1dcd9f;
+  --color-mint2: #169976;
+  --color-black1: #292929;
+  --color-black2: #222222;
+
   --font-roboto: "Roboto", sans-serif;
 }
 
@@ -21,16 +26,16 @@ html {
 }
 
 body {
-  @apply h-full flex flex-col min-h-screen text-white bg-artic-800;
+  @apply h-full flex flex-col min-h-screen text-black2 bg-black2 items-center;
 }
 
 main {
-  @apply mx-auto flex flex-grow flex-col pt-10 items-center w-full max-w-7xl;
+  @apply flex flex-grow flex-col pt-10 items-center max-w-[150rem] bg-mint2 m-8 p-4 rounded-[50px];
   @apply lg:w-fit;
 }
 
 h1 {
-  @apply text-3xl text-amber-400 pb-1;
+  @apply text-3xl pb-1;
 }
 
 h3 {
@@ -38,9 +43,13 @@ h3 {
 }
 
 p {
-  @apply pb-1;
+  @apply pb-2;
 }
 
-.articault-transition {
+li {
+  @apply list-disc pb-1.5;
+}
+
+.default-transition {
   @apply transition-all duration-200 delay-75;
 }

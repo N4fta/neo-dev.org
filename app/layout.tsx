@@ -9,6 +9,11 @@ const links: FooterLink[] = [
     alt: "Github Logo",
   },
   {
+    link: "https://www.linkedin.com/in/nunocdias/",
+    imageSrc: "/links/linkedin-white.svg",
+    alt: "LinkedIn Logo",
+  },
+  {
     link: "https://hub.docker.com/u/n4fta",
     imageSrc: "/links/docker-white.svg",
     alt: "Docker Logo",
@@ -47,13 +52,13 @@ export default function RootLayout({
                   <img
                     src={link.imageSrc}
                     alt={link.alt}
-                    className="size-12 opacity-70 hover:opacity-80 default-transition"
+                    className="size-12 opacity-75 hover:opacity-80 default-transition"
                   />
                 </a>
               );
             })}
           </div>
-          <div className="text-xs pb-0.5">© 2025 Nuno Dias</div>
+          <div className="text-xs pb-0.5 text-white/75">© 2025 Nuno Dias</div>
         </footer>
       </body>
     </html>
