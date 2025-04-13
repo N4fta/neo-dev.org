@@ -1,0 +1,10 @@
+- Contact Form
+- Project highlights
+- simple Blog post
+- blog post on cyber
+- blog post on mc modding
+- blog post page & api
+- test with lighthouse
+- choose a font
+- add pictures
+-
