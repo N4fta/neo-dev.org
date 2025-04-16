@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { FooterLink } from "@/app/types";
+import Three from "./three-js/Three";
 import "./globals.css";
 
 const links: FooterLink[] = [
@@ -38,8 +39,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="antialiased bg-container">
+        <Three />
         {children}
-        <footer className="footer-bar w-screen flex flex-col items-center ">
+        {/* <footer className="footer-bar w-screen flex flex-col items-center ">
           <div className="flex gap-2 pb-0.5">
             {links.map((link: FooterLink) => {
               return (
@@ -59,7 +61,7 @@ export default function RootLayout({
             })}
           </div>
           <div className="text-xs pb-0.5 text-white/75">© 2025 Nuno Dias</div>
-        </footer>
+        </footer> */}
       </body>
     </html>
   );
