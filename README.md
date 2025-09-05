@@ -10,10 +10,12 @@
 
 <!-- Badges -->
 <p align="center">
-  <a href="">
-    <img src=""
-         alt="next">
-  </a>
+    <img src="https://badgen.net/github/commits/N4fta/neo-dev.org"
+         alt="commits">
+    <img src="https://badgen.net/github/last-commit/N4fta/neo-dev.org"
+    alt="last commit">
+    <img src="https://badgen.net/static/next.js/15.3/black"
+    alt="next.js version 15.3">
 </p>
 
 <!-- Horizontal short Menu (w\ Links) -->
@@ -27,17 +29,17 @@
 <!-- Pref. Animated Screenshot-->
 
 <div align=center>
-![screenshot](https://placehold.co/800x400?text=Screenshot&font=roboto)
+<img src=https://placehold.co/800x400?text=Screenshot&font=roboto alt="screenshot1">
 </div>
 
 ## Key Features
 
 - Professional & Social Links
-- 
+-
 
 <div align=center>
-<img src="https://placehold.co/600x300?text=Screenshot&font=roboto" alt="" width="600">
-<img src="https://placehold.co/600x300?text=Screenshot&font=roboto" alt="" width="600">
+<img src="https://placehold.co/600x300?text=Screenshot&font=roboto" alt="screenshot2" width="600">
+<img src="https://placehold.co/600x300?text=Screenshot&font=roboto" alt="screenshot3" width="600">
 </div>
 
 ## How To Use
@@ -68,7 +70,6 @@ $ npm start
 > **Note**
 > Pushing to Github automatically deploys to Vercel if the user is authorized in Vercel, so only push functional versions to main
 
-
 To deploy develop the application:
 
 ```bash
@@ -90,9 +91,12 @@ Currently there is another branch for a 3js website project. A website with 3D e
 - [ ] Dark/Light mode
 - [ ] Preview of Projects through a Github fetch (dynamic)
 - [ ] Add professional email
+- [ ] Contact Form
 - [ ] Interactivity, a game or puzzle
 - [ ] Sound effects
 - [ ] Change Background
+- [ ] Blog posts (Cyber)
+- [ ] Choose a font
 
 ### To Do 3js
 
