@@ -2,24 +2,17 @@
   <br>
   <img src="https://placehold.co/200?text=Project\nLogo&font=roboto" alt="" width="200">
   <br>
-  Project Name
+  Neo-Dev.org
   <br>
 </h1>
 
-<h4 align="center">Sub-title with <a href="" target="_blank">link</a>.</h4>
+<h4 align="center">My personal <a href="https://neo-dev.org" target="_blank">website</a>.</h4>
 
 <!-- Badges -->
 <p align="center">
   <a href="">
-    <img src="https://badge.fury.io/js/electron-markdownify.svg"
-         alt="Gitter">
-  </a>
-  <a href=""><img src=""></a>
-  <a href="">
-      <img src="">
-  </a>
-  <a href="">
-    <img src="">
+    <img src=""
+         alt="next">
   </a>
 </p>
 
@@ -27,8 +20,7 @@
 <p align="center">
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
-  <a href="#related-repositories">Related Repositories</a> •
-  <a href="#retrospective">Retrospective</a> •
+  <a href="#notes">Notes</a> •
   <a href="#credits">Credits</a>
 </p>
 
@@ -38,7 +30,8 @@
 
 ## Key Features
 
-- Dark/Light mode
+- Professional & Social Links
+- 
 
 <div align=center>
 <img src="https://placehold.co/600x300?text=Screenshot&font=roboto" alt="" width="600">
@@ -58,33 +51,61 @@ $ cd
 
 # Install dependencies
 $ npm install
+```
 
+To deploy the application in production mode:
+
+```bash
 # Build a production build
 $ npm run build
 
-# Run the app
+# Run the app, deploys to port 3000
 $ npm start
+```
+
+> **Note**
+> Pushing to Github automatically deploys to Vercel if the user is authorized in Vercel, so only push functional versions to main
+
+
+To deploy develop the application:
+
+```bash
+# Run the development version so it reacts to changes, deploys to port 3000
+$ npm run dev
 ```
 
 > **Note**
 > Only tested on Windows
 
-## Related Repositories
+## Notes
 
-- [Front-End]()
+Currently there is another branch for a 3js website project. A website with 3D elements, but it has been put on hold due to work.
 
-## Retrospective
+### To Do main
+
+- [ ] Design NeoDev Avatar
+- [ ] Add Logo (Avatar)
+- [ ] Dark/Light mode
+- [ ] Preview of Projects through a Github fetch (dynamic)
+- [ ] Add professional email
+- [ ] Interactivity, a game or puzzle
+- [ ] Sound effects
+- [ ] Change Background
+
+### To Do 3js
+
+- [ ] Decide on a design
+- [ ] Learn how to make it
 
 ## Credits
 
 This software uses the following open source packages:
 
-- [Flask](https://flask.palletsprojects.com/en/stable/)
-- [SQLAlchemy](https://www.sqlalchemy.org/)
-- [WTForms](https://pypi.org/project/WTForms/)
-- [SQLAlchemy](https://www.sqlalchemy.org/)
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [Tailwind css](https://tailwindcss.com/)
 
-Created with the help of some Fontys students at [Fontys](https://www.fontys.nl/).
+Created by myself:)
 
 ### My Links
 
