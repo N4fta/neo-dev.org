@@ -97,6 +97,7 @@ Currently there is another branch for a 3js website project. A website with 3D e
 - [ ] Change Background
 - [ ] Blog posts (Cyber)
 - [ ] Choose a font
+- [ ] Create endpoint to check if neo-dev is up, make a badge
 
 ### To Do 3js
 
