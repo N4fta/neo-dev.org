@@ -26,7 +26,9 @@
 
 <!-- Pref. Animated Screenshot-->
 
+<div align=center>
 ![screenshot](https://placehold.co/800x400?text=Screenshot&font=roboto)
+</div>
 
 ## Key Features
 
