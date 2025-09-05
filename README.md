@@ -59,6 +59,9 @@ $ cd
 # Install dependencies
 $ npm install
 
+# Build a production build
+$ npm run build
+
 # Run the app
 $ npm start
 ```
