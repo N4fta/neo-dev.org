@@ -14,8 +14,6 @@
          alt="commits">
     <img src="https://badgen.net/github/last-commit/N4fta/neo-dev.org"
     alt="last commit">
-    <img src="https://badgen.net/static/next.js/15.3/black"
-    alt="next.js version 15.3">
 </p>
 
 <!-- Horizontal short Menu (w\ Links) -->
